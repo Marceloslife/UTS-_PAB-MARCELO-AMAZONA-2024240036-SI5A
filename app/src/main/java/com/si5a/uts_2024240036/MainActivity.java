@@ -46,7 +46,10 @@ private String nama,nomorpendaftaran,spinner;
             else {
                 Intent intent = new
                         Intent(MainActivity.this, Second.class);
-                startActivity(intent);
+                intent.putExtra("vrNama", nama);
+                intent.putExtra("vrNoPend", nomorpendaftaran);
+                intent.putExtra("varSpinr", spinner);
+                         startActivity(intent);
                 }
             }
         });
