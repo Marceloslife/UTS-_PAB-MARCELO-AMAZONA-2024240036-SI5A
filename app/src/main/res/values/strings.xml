@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UTS_2024240036</string>
+    <string-array name="text">
+        <item>Tes</item>
+        <item>Tes Tertulis</item>
+        <item>Tes Wawancara</item>
+        <item>Rekomendasi</item>
+    </string-array>
+</resources>
