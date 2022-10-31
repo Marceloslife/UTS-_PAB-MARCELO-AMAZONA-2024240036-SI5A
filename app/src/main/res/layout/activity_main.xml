@@ -8,15 +8,7 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="UTS"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+
     <TextView
         android:id="@+id/et_nama"
         android:layout_width="wrap_content"
@@ -27,7 +19,7 @@
         android:layout_gravity="center"
         android:textColor="@color/purple_700" />
     <EditText
-        android:id="@+id/et_namalengkap"
+        android:id="@+id/et_nama_lengkap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Nama Lengkap"
@@ -44,19 +36,16 @@
         android:id="@+id/spinner1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:entries="@array/text"/>
     <CheckBox android:id="@+id/checkbox_meat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Konfirmasi Daftar"
-        android:onClick="onCheckboxClicked"/>
-
-
-
-
-
-
-
-
-
+        android:text="Konfirmasi Daftar"/>
+     <Button
+         android:id="@+id/btn_daftar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="DAFTAR"
+         android:textColor="@color/purple_700"/>
 </LinearLayout>

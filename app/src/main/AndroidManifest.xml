@@ -14,6 +14,9 @@
         android:theme="@style/Theme.UTS_2024240036"
         tools:targetApi="31">
         <activity
+            android:name=".Second"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
